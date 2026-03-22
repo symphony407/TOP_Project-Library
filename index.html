@@ -9,9 +9,21 @@
 <body>
     <script src="library.js" defer></script>
         <div id="library">
+            <form>
+            <button id="addBook">Add Book</button>
 
+            <div id="book-form">
+                <inpuy id="title" placeholder="Title" required>
+                <input id="author" placeholder="Author" required>
+                <input id="pages" placeholder="Pages" type="number" required>
+            </div>
+            <label>
+                Read?
+                <input id="read" type="checkbox">
+            </label>
 
-
+            <button type="submit">Add Book</button>
+            </form>
         </div>
 
     </script>
