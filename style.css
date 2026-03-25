@@ -33,7 +33,7 @@
 }
 .book-card button:first-of-type {
   background-color: #4caf50;
-  color: grey;
+  color: black
 }
 
 .book-card button:first-of-type:hover {
