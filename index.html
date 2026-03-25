@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <script src="library.js" defer></script>
-        <div id="library">
-            <form>
-            <button id="addBook">Add Book</button>
-
-            <div id="book-form">
-                <inpuy id="title" placeholder="Title" required>
+            <form id="book-form">
+                <input id="title" placeholder="Title" required>
                 <input id="author" placeholder="Author" required>
                 <input id="pages" placeholder="Pages" type="number" required>
-            </div>
             <label>
                 Read?
                 <input id="read" type="checkbox">
@@ -24,7 +20,8 @@
 
             <button type="submit">Add Book</button>
             </form>
-        </div>
+
+            <div id="library"></div>
 
     </script>
 
