@@ -6,7 +6,7 @@
 }
 
 .book-card{
-    background: grey;
+    background: rgb(127, 157, 247);
     padding: 16px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,11 +25,11 @@
 }
 .book-card button:last-child{
     background-color: #ff4d4d;
-    color: grey;
+    color: black;
 }
 .book-card button:last-child:hover{
     background-color: #007BFF;
-    color: grey;
+    color: black;
 }
 .book-card button:first-of-type {
   background-color: #4caf50;
@@ -75,7 +75,7 @@ p{
   flex-direction: column;
   gap: 12px;
 
-  width: 400px;
+  width: 350px;
 }
 #book-form input {
   padding: 10px;
