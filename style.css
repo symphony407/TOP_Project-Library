@@ -75,7 +75,8 @@ p{
   flex-direction: column;
   gap: 12px;
 
-  width: 350px;
+  width: 100%;
+  max-width: 500px;
 }
 #book-form input {
   padding: 10px;
